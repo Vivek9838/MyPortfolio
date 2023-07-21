@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+body{
+    line-height: 1.8;
+    color: #898fa1;
+    font-size: 15px;
+    font-family: 'lato','sans-serif';
+}
+h1,h2,h4{
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color:blue;
+}
+
+	
+	
+
+
+.title-sm{
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+a{
+    font-weight: 700px;
+    transition: all 0.4s ease;
+
+}
+ 
+img{
+    width: 100%;
+
+}
+small{
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 700px;
+
+}
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.navbar .nav-link{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.navbar{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.navbar-light .navbar-nav .nav-link.active{
+    color: #e93b81;
+}
+.logo-text{
+    font-size: 30px;
+    text-transform: uppercase;
+    color: black!important;
+	font-weight:bolder;
+    
+}
+.dot{
+font-weight:bolder;
+color:red;
+
+}	
+
+#home{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(17, 36, 90, 0.9),rgba(17, 36, 90, 0.9)),  url(../img/988057.jpg);
+}
+.text-color{
+    color: brown;
+    font-size: 60px;
+}
+.typing{
+    color: red;
+  font-weight: bold;
+  
+  animation-name: example;
+  animation-duration: 3s;
+  font-size: 45px;
+}
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: green;}
+    100% {color: palevioletred;}
+  }
+#home h3{
+    font-weight: 700;
+}
+.btn{
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 45px;
+    border-radius: 25px;
+
+}
+.btn-brand{
+    background-color: #e93b81;
+    color: white;
+}
+.btn-brand:hover{
+    background-color: #e93b81;
+}
+.section-intro .hline{
+    width: 150px;
+    height: 2px;
+    background-color: red;
+    margin: 16px auto 0 auto;
+
+}
+.section-intro{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.icon-box{
+    width: 60px;
+    height: 60px;
+    background-color: #e93b81;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+}
+#more {
+    display: none;
+}
+form .form-control{
+    border-radius: 0;
+}
+form .form-control:focus{
+    box-shadow: none;
+    border-color: #e93b81;
+}
+.footer-pic{
+    height: 450px;
+    width: 400px;
+}
+#about{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(17, 36, 90, 0.9),rgba(17, 36, 90, 0.9)),  url(../img/988057.jpg);
+}
+.about-intro .hline{
+    width: 100px;
+    height: 2px;
+    background-color: red;
+    margin: 16px auto 0 auto;
+
+}
+.about-intro{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.progress-bar{
+ background-color: #e93b81;
+}
+.name{
+    color: #e93b81;
+    font-size: 35px;
+}
+
+
+footer{
+    background: #3f3e3e;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    padding-top: 10px;
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+
+    border-radius: 50%;
+
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+
+
+    transition: color .4s ease;
+
+}
+.socials a:hover i{
+    color: rgb(12, 187, 187);
+}
+
+@media (max-width:500px) {
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+}
+
